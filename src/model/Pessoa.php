@@ -9,5 +9,9 @@ class Pessoa {
         $this->nome = $nome;
         $this-> contato = $contato;
     }
+    function falar(){
+    echo("</br>");
+    echo($this->nome . " está falando");
+    }
 }
 ?>

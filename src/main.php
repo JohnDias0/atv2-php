@@ -40,6 +40,8 @@
     echo("</br>");
     echo $p6 -> nome;
     echo("</br>");
+
+   $p6->falar();
     echo("<p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
         </footer>
     </body>
