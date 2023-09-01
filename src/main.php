@@ -16,13 +16,6 @@
         
         <footer>"
 ?>
-<?
-            "<p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
-        </footer>
-    </body>
-    </html>
-    "
-?>
 
 <?php
     include_once __DIR__."/../vendor/autoload.php";
@@ -47,4 +40,9 @@
     echo("</br>");
     echo $p6 -> nome;
     echo("</br>");
+    echo("<p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+    </html>
+    ")
 ?>
